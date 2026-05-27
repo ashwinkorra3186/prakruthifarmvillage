@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highlights | Prakruthi Farm Village</title>
+    <meta
+      name="description"
+      content="Explore the construction, finishing, utility, and amenity highlights of Prakruthi Farm Village through a structured specifications overview."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="images/logo.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="images/highlight1.png" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="inner-page highlights-page">
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Prakruthi Farm Village home">
+          <img src="images/logo.webp" alt="Prakruthi Farm Village logo" decoding="async" />
+        </a>
+
+        <nav class="site-nav" id="site-nav">
+          <a href="index.html#about">About</a>
+          <a href="highlights.html">Highlights</a>
+          <a href="index.html#amenities">Amenities</a>
+          <a href="location.html">Location</a>
+          <a href="Prakruthi%20Farm%20Village%20brochure.pdf" target="_blank" rel="noreferrer">
+            Brochure
+          </a>
+        </nav>
+
+        <div class="header-tools">
+          <a class="tool-link" href="#contact" aria-label="Call us">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="M22 16.92v2a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 3.18 2 2 0 0 1 4.11 1h2a2 2 0 0 1 2 1.72c.12.9.33 1.78.63 2.62a2 2 0 0 1-.45 2.11L7.1 8.91a16 16 0 0 0 8 8l1.46-1.19a2 2 0 0 1 2.11-.45c.84.3 1.72.51 2.62.63A2 2 0 0 1 22 16.92Z"
+              />
+            </svg>
+          </a>
+          <button class="tool-link tool-button" type="button" aria-label="Search">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="m21 21-4.35-4.35" />
+              <circle cx="11" cy="11" r="6" />
+            </svg>
+          </button>
+          <a class="nav-cta" href="#contact">Book a Site Visit</a>
+        </div>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="section highlights-page-hero">
+        <div class="highlights-hero-background" aria-hidden="true">
+          <div
+            class="highlights-hero-slide is-active"
+            style="--highlights-hero-image: url('images/highlight1.png')"
+          ></div>
+          <div
+            class="highlights-hero-slide"
+            style="--highlights-hero-image: url('images/highlight2.png')"
+          ></div>
+          <div
+            class="highlights-hero-slide"
+            style="--highlights-hero-image: url('images/highlight3.png')"
+          ></div>
+        </div>
+        <div class="container highlights-hero-shell">
+          <div class="highlights-hero-copy">
+            <p class="eyebrow">Construction Highlights</p>
+            <h1>Built with stronger foundations, smarter systems, and premium finishing standards.</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights-spec-nav-section">
+        <div class="container">
+          <div class="highlights-spec-nav" role="tablist" aria-label="Highlights sections">
+            <button
+              class="highlights-spec-tab is-active"
+              type="button"
+              role="tab"
+              aria-selected="true"
+              data-highlight-target="structure"
+            >
+              1. Structure
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="walls"
+            >
+              2. Walls &amp; Plaster
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="flooring"
+            >
+              3. Flooring &amp; Tiling
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="openings"
+            >
+              4. Doors &amp; Windows
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="kitchen"
+            >
+              5. Kitchen
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="bathrooms"
+            >
+              6. Bathrooms &amp; Plumbing
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="electrical"
+            >
+              7. Electrical
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="utilities"
+            >
+              8. Utilities &amp; Backup
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="amenity-specs"
+            >
+              9. Amenities
+            </button>
+            <button
+              class="highlights-spec-tab"
+              type="button"
+              role="tab"
+              aria-selected="false"
+              data-highlight-target="finishes"
+            >
+              10. Finishes
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlights-detail-section">
+        <div class="container">
+          <div class="highlights-content">
+            <article class="highlights-block is-active" id="structure" data-highlight-panel role="tabpanel">
+              <div class="highlights-block-heading">
+                <p class="eyebrow">01</p>
+                <h2>Structure, Foundation &amp; Roof</h2>
+                <p>
+                  The structural package is planned around stable foundations, anti-termite
+                  protection, RCC performance, and a carefully layered steel-and-tile roofing
+                  system.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Soil Treatment &amp; Foundation</h3>
+                  <ul>
+                    <li>Expansive black cotton soil removed up to hard strata, approximately 6 feet, for structural stability.</li>
+                    <li>Retaining wall or CRS wall provided to plinth level based on soil conditions.</li>
+                    <li>Strip footings executed on hard strata with RCC columns raised up to plinth level.</li>
+                    <li>Controlled morrum backfilling in compacted layers followed by RCC plinth beam and grade slab.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 1498, IS 1904, IS 456:2000, IS 370 Part 2</p>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Anti-Termite Treatment</h3>
+                  <ul>
+                    <li>Pre-construction soil treatment with approved chemicals before the grade slab stage.</li>
+                    <li>Treatment planned as per IS 6313 Part 2 for protection against subterranean termites.</li>
+                    <li>Post-construction drilling at basement junctions with chemical emulsion injection at regular intervals.</li>
+                  </ul>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Superstructure, Steel &amp; Roofing</h3>
+                  <ul>
+                    <li>RC framed structure designed in line with seismic compliance requirements for strength and durability.</li>
+                    <li>Anchored MS columns with J-bolts, aligned ridge members, rafters, tie beams, and purlins.</li>
+                    <li>12mm V-board sheets at ridge and tie beam joints with aluminium purlins.</li>
+                    <li>Waterproof polypropylene sheets with sealed overlaps, Monier interlocking cement roof tiles, ridge tiles, mortar capping, and waterproofing at joints.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 456:2000, IS 1893 Part 1:2016, IS 13920:2016, IS 2062, IS 800:2007, IS 13827, IS 3067</p>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Third-party or in-house cube testing for concrete.</li>
+                    <li>Welding inspection for fabricated joints.</li>
+                    <li>Curing quality and alignment verification before finishing.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="walls" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">02</p>
+                <h2>Walls, Plaster &amp; Exterior Finish</h2>
+                <p>
+                  Masonry, plastering, reinforcement bands, and waterproof exterior treatments are
+                  planned to support durability, thermal comfort, and crack resistance.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Exterior Walls</h3>
+                  <ul>
+                    <li>Red brick masonry built over a concrete DPC bed for damp protection.</li>
+                    <li>9-inch thick external walls planned for strength and thermal insulation.</li>
+                    <li>Concrete stiffener bands at every 1.0m height for uniform load transfer and improved crack resistance.</li>
+                    <li>Double coat cement plaster at approximately 18 to 20mm total thickness.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 1077, IS 2212, IS 2185 Part 1 &amp; 2, IS 456:2000, IS 1542</p>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Interior Walls</h3>
+                  <ul>
+                    <li>4-inch thick internal brick partition walls.</li>
+                    <li>Single coat cement plaster around 12 to 15mm thick.</li>
+                    <li>Final putty or skim coat preparation for primer and emulsion finish.</li>
+                  </ul>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Boundary Wall</h3>
+                  <ul>
+                    <li>RCC columns with masonry infill on a concrete DPC bed.</li>
+                    <li>Concrete stiffener bands at 1.0m intervals for added stability.</li>
+                    <li>15 to 18mm cement mortar plaster on both sides with exterior waterproof paint.</li>
+                    <li>Expansion joints to absorb thermal movement and reduce surface cracking.</li>
+                  </ul>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Plaster thickness measured against specification.</li>
+                    <li>Surface evenness checked during finishing.</li>
+                    <li>Paint adhesion and moisture resistance verified.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="flooring" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">03</p>
+                <h2>Flooring &amp; Tiling</h2>
+                <p>
+                  Flooring is organized by area use, balancing premium visual finish with wet-area
+                  safety, drainage, and long-term durability.
+                </p>
+              </div>
+
+              <div class="highlights-table">
+                <div class="highlights-table-row">
+                  <div><strong>Living / Dining / Lounge</strong></div>
+                  <div>Premium vitrified, large format 800×800mm or 600×600mm, polished finish aligned with project theme.</div>
+                </div>
+                <div class="highlights-table-row">
+                  <div><strong>Bedrooms</strong></div>
+                  <div>Matching premium vitrified flooring, with optional tile or wood-finish skirting depending on final finish.</div>
+                </div>
+                <div class="highlights-table-row">
+                  <div><strong>Kitchens &amp; Utility</strong></div>
+                  <div>Vitrified tile with anti-skid ceramic or vitrified options and dado up to 600mm above the platform.</div>
+                </div>
+                <div class="highlights-table-row">
+                  <div><strong>Bathrooms &amp; Wet Areas</strong></div>
+                  <div>Vitrified or anti-skid ceramic flooring with wall tile dado up to approximately 1.2m to 1.5m.</div>
+                </div>
+                <div class="highlights-table-row">
+                  <div><strong>Veranda</strong></div>
+                  <div>Anti-skid tiles or full-body vitrified finish with proper slope and drainage protection.</div>
+                </div>
+              </div>
+
+              <section class="highlights-panel highlights-qc-panel">
+                <h3>Quality Control</h3>
+                <ul>
+                  <li>Tile alignment and slopes checked with spirit level.</li>
+                  <li>Joint spacers used for consistency.</li>
+                  <li>Adhesive setting and curing verified before handover.</li>
+                </ul>
+                <p class="highlights-code">Standards referenced: IS 13755, IS 15622, IS 13829</p>
+              </section>
+            </article>
+
+            <article class="highlights-block" id="openings" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">04</p>
+                <h2>Doors, Windows &amp; Glazing</h2>
+                <p>
+                  Door and window specifications focus on durability, smooth operation, premium
+                  appearance, and better light and sound performance where needed.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Main Entrance &amp; Internal Doors</h3>
+                  <ul>
+                    <li>Main door with solid hardwood or engineered wood frame and veneer finish.</li>
+                    <li>Quality hardware package including locks, hinges, handles, and deadbolt.</li>
+                    <li>Internal flush doors with veneer or laminate finish.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 2202 Part 1 &amp; 2, IS 6245</p>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Windows &amp; Glass</h3>
+                  <ul>
+                    <li>uPVC window frames in sliding or casement configuration as per design.</li>
+                    <li>Mosquito mesh provision included.</li>
+                    <li>Tempered glass for large windows and double-glazed units for larger openings or sound insulation zones.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 2835, IS 3548</p>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Door alignment and shutter movement checked.</li>
+                    <li>Hardware tightening verified.</li>
+                    <li>Glass inspected for cracks and sealed at edges.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="kitchen" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">05</p>
+                <h2>Kitchen &amp; Countertops</h2>
+                <p>
+                  The kitchen package is planned around durable countertops, practical utility
+                  points, and a cleaner daily-use workflow.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Counter, Sink &amp; Fittings</h3>
+                  <ul>
+                    <li>Granite or quartz countertops, approximately 20 to 30mm thick, with polished edges.</li>
+                    <li>Stainless steel under-mount sink in single or double bowl options depending on layout.</li>
+                    <li>Provision for chimney or exhaust, dishwasher or washing machine, and water purifier.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 1062, IS 303, IS 1237</p>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Counter slope checked.</li>
+                    <li>Cabinet alignment verified.</li>
+                    <li>Sink leakages tested and hardware load checked.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="bathrooms" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">06</p>
+                <h2>Sanitary, Plumbing &amp; Bathrooms</h2>
+                <p>
+                  Bathroom and plumbing specifications combine premium sanitary selections with
+                  concealed service routing and durable drainage systems.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Sanitary Ware &amp; CP Fittings</h3>
+                  <ul>
+                    <li>Wall-hung, counter, or under-counter wash basins depending on location.</li>
+                    <li>Western WC with dual flush and premium brand selections such as Jaquar or CERA.</li>
+                    <li>Premium chrome-plated, brushed, or matte black mixers, showers, and taps.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 1742, IS 10144</p>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Plumbing &amp; Drainage</h3>
+                  <ul>
+                    <li>Concealed CPVC or PVC plumbing as per certified material standards.</li>
+                    <li>Sewer drainage in PVC or HDPE.</li>
+                    <li>Rainwater lines planned in line with regulatory requirements.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 4985, IS 1785</p>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="electrical" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">07</p>
+                <h2>Electrical, Lighting &amp; Power</h2>
+                <p>
+                  Electrical planning focuses on concealed wiring, reliable switchgear, adequate
+                  appliance points, and LED-based lighting for everyday use.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Wiring &amp; Switchgear</h3>
+                  <ul>
+                    <li>Concealed copper wiring with IS or BIS certified materials.</li>
+                    <li>Load calculations planned villa-wise.</li>
+                    <li>Modular switches from premium brands such as Legrand, Schneider, or Havells.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 694, IS 1293, IS 513</p>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Points &amp; Lighting</h3>
+                  <ul>
+                    <li>Adequate power points for ACs, refrigerators, microwaves, and kitchen appliances.</li>
+                    <li>LED fixtures planned for living areas, outdoors, corridors, and common areas.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 302 Part 1</p>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Insulation resistance test carried out.</li>
+                    <li>Earthing verification completed.</li>
+                    <li>MCB tripping checks and circuit load tests performed.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="utilities" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">08</p>
+                <h2>Backup, Water &amp; Utility Services</h2>
+                <p>
+                  Utilities are designed to support comfortable long stays with backup power, treated
+                  water, pressure systems, sewage treatment, and rainwater management.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Power &amp; Water Systems</h3>
+                  <ul>
+                    <li>100% DG backup planned.</li>
+                    <li>Overhead tanks for individual villas and underground sumps for the community.</li>
+                    <li>Treated or filtered RO drinking water provision.</li>
+                    <li>Hydro-pneumatic system for more uniform water pressure.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 3370 Part 2, IS 10500, IS 3025</p>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Sewage &amp; Rainwater</h3>
+                  <ul>
+                    <li>Sewage Treatment Plant with treated water reused for flushing and landscaping.</li>
+                    <li>Rooftop rainwater harvesting and recharge pits distributed across the project.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 4011</p>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Generator load tests performed.</li>
+                    <li>Water quality analysis checked.</li>
+                    <li>STP treated water quality verified.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="amenity-specs" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">09</p>
+                <h2>Amenities &amp; Common Areas</h2>
+                <p>
+                  Shared spaces are designed around landscaped leisure, active recreation, security,
+                  and community use, while still supporting everyday comfort.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Landscape &amp; Clubhouse</h3>
+                  <ul>
+                    <li>Landscaped gardens with native species, walking paths, and seating areas.</li>
+                    <li>Clubhouse with multipurpose hall, indoor games, badminton court, skating ring, and gym with branded equipment.</li>
+                  </ul>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Pool &amp; Security Infrastructure</h3>
+                  <ul>
+                    <li>Main swimming pool plus kids’ pool with deck, hygiene, and filtration systems.</li>
+                    <li>Gated entrance, CCTV coverage, boom barriers, guard house, and solar fencing.</li>
+                  </ul>
+                  <p class="highlights-code">Standards referenced: IS 15622, IS 13087, IS 3043</p>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Pool water pH testing and hygiene checks.</li>
+                    <li>Gym equipment safety inspection.</li>
+                    <li>CCTV coverage audit across critical areas.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+
+            <article class="highlights-block" id="finishes" data-highlight-panel role="tabpanel" hidden>
+              <div class="highlights-block-heading">
+                <p class="eyebrow">10</p>
+                <h2>Finishes, Painting &amp; Aesthetics</h2>
+                <p>
+                  The finishing palette is planned for consistent surface quality, long-term
+                  weathering performance, and a cleaner premium appearance inside and out.
+                </p>
+              </div>
+
+              <div class="highlights-subgrid">
+                <section class="highlights-panel">
+                  <h3>Interior Walls</h3>
+                  <ul>
+                    <li>Two coats of putty over plastered walls for a smooth and leveled base.</li>
+                    <li>One coat of interior wall primer.</li>
+                    <li>Two coats of tractor emulsion paint.</li>
+                    <li>Brand reference: Asian Paints Tractor Series.</li>
+                  </ul>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Exterior Walls</h3>
+                  <ul>
+                    <li>Texture base coat for bonding and weather resistance.</li>
+                    <li>One coat of exterior-grade primer.</li>
+                    <li>Two coats of Apex Suprema or Apex Ultima for waterproof and UV-resistant performance.</li>
+                    <li>Brand reference: Asian Paints Apex Series.</li>
+                  </ul>
+                </section>
+
+                <section class="highlights-panel">
+                  <h3>Metal Work</h3>
+                  <ul>
+                    <li>Two coats of enamel paint on metal elements.</li>
+                  </ul>
+                </section>
+
+                <section class="highlights-panel highlights-qc-panel">
+                  <h3>Quality Control</h3>
+                  <ul>
+                    <li>Paint shade consistency checked.</li>
+                    <li>Adhesion tests performed.</li>
+                    <li>Weatherproof coating inspection completed.</li>
+                  </ul>
+                </section>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section closing-cta-section" id="contact">
+        <div class="container">
+          <div class="closing-cta">
+            <h2>Enquire Now</h2>
+            <form class="closing-cta-form">
+              <input type="text" name="name" placeholder="Name" />
+              <input type="tel" name="mobile" placeholder="Mobile Number" />
+              <input type="email" name="email" placeholder="Email Address" />
+              <input type="text" name="visit-date" placeholder="Event Date" />
+              <textarea name="details" placeholder="Details of your enquiry"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <div class="footer-brand">
+          <a class="footer-brand-mark" href="index.html" aria-label="Prakruthi Farm Village home">
+            <img src="images/logo.webp" alt="Prakruthi Farm Village logo" loading="lazy" decoding="async" />
+            <span>
+              <strong>Prakruthi Farm Village</strong>
+              <small>Farm-Villa Community</small>
+            </span>
+          </a>
+          <p>
+            Your luxury farm-villa destination in Telangana. Spacious homes, lush greenery, and a
+            calmer pace designed for families, weekend living, and long-view value.
+          </p>
+          <div class="footer-socials">
+            <a href="#contact" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M14 8h2V4h-2c-2.8 0-5 2.2-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" />
+              </svg>
+            </a>
+            <a href="#contact" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3.5" />
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="index.html#about">About Us</a>
+          <a href="highlights.html">Highlights</a>
+          <a href="index.html#amenities">Amenities</a>
+          <a href="location.html">Location</a>
+          <a href="index.html#floorplans">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-links">
+          <h3>Legal</h3>
+          <a href="#contact">Privacy Policy</a>
+          <a href="#contact">Terms &amp; Conditions</a>
+          <a href="#contact">Cookies</a>
+        </div>
+
+        <div class="footer-links footer-reach">
+          <h3>Reach Us</h3>
+          <p>Siripura, Mandal Marpally, District Rangareddy, Telangana, 501202, India</p>
+          <p>Phone Number: <a href="#contact">+91 00000 00000</a></p>
+          <p>Email: <a href="#contact">hello@prakruthifarmvillage.com</a></p>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>&copy; 2026 Prakruthi Farm Village. All Rights Reserved.</p>
+        <p>
+          Designed by
+          <a
+            class="footer-credit-link"
+            href="https://kivraservices.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kivra services
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
