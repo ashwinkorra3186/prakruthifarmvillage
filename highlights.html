@@ -90,8 +90,59 @@
         </div>
       </section>
 
+      <section class="section highlights-pillars-section">
+        <div class="highlights-full-width-shell">
+          <div class="highlights-pillars">
+            <article class="highlights-pillar">
+              <span class="highlights-pillar-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none">
+                  <circle cx="16" cy="7" r="3" />
+                  <path d="M16 10v7" />
+                  <path d="M11 26l5-9 5 9" />
+                </svg>
+              </span>
+              <h2>Structural Integrity</h2>
+              <p>
+                Seismic-resistant RCC frames designed to exceed national safety standards,
+                ensuring a foundation as solid as the earth itself.
+              </p>
+            </article>
+
+            <article class="highlights-pillar">
+              <span class="highlights-pillar-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none">
+                  <path d="M8 23.5 15.5 9l7.5 14.5" />
+                  <path d="M12.5 23.5 18 13l5.5 10.5" />
+                  <path d="M5.5 23.5h21" />
+                </svg>
+              </span>
+              <h2>Premium Materials</h2>
+              <p>
+                Sourced with ecological mindfulness, our materials blend raw tactile beauty
+                with industrial-grade durability.
+              </p>
+            </article>
+
+            <article class="highlights-pillar">
+              <span class="highlights-pillar-icon" aria-hidden="true">
+                <svg viewBox="0 0 32 32" fill="none">
+                  <path d="M21.5 6.5a4 4 0 0 1 0 5.7L11.3 22.4a4 4 0 0 1-5.6-5.7L15.9 6.5" />
+                  <path d="M17.2 10.8 21.5 15" />
+                  <path d="M17.8 25.5h8.7" />
+                </svg>
+              </span>
+              <h2>Refined Finishes</h2>
+              <p>
+                The final layer of luxury is found in the details, with hand-finished
+                textures and high-precision artisanal fittings.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="highlights-spec-nav-section">
-        <div class="container">
+        <div class="highlights-full-width-shell">
           <div class="highlights-spec-nav" role="tablist" aria-label="Highlights sections">
             <button
               class="highlights-spec-tab is-active"
@@ -100,7 +151,8 @@
               aria-selected="true"
               data-highlight-target="structure"
             >
-              1. Structure
+              <span class="highlights-spec-index">01</span>
+              <span class="highlights-spec-label">Structure</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -109,7 +161,8 @@
               aria-selected="false"
               data-highlight-target="walls"
             >
-              2. Walls &amp; Plaster
+              <span class="highlights-spec-index">02</span>
+              <span class="highlights-spec-label">Walls &amp; Plaster</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -118,7 +171,8 @@
               aria-selected="false"
               data-highlight-target="flooring"
             >
-              3. Flooring &amp; Tiling
+              <span class="highlights-spec-index">03</span>
+              <span class="highlights-spec-label">Flooring</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -127,7 +181,8 @@
               aria-selected="false"
               data-highlight-target="openings"
             >
-              4. Doors &amp; Windows
+              <span class="highlights-spec-index">04</span>
+              <span class="highlights-spec-label">Doors/Windows</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -136,7 +191,8 @@
               aria-selected="false"
               data-highlight-target="kitchen"
             >
-              5. Kitchen
+              <span class="highlights-spec-index">05</span>
+              <span class="highlights-spec-label">Kitchen</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -145,7 +201,8 @@
               aria-selected="false"
               data-highlight-target="bathrooms"
             >
-              6. Bathrooms &amp; Plumbing
+              <span class="highlights-spec-index">06</span>
+              <span class="highlights-spec-label">Sanitary</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -154,7 +211,8 @@
               aria-selected="false"
               data-highlight-target="electrical"
             >
-              7. Electrical
+              <span class="highlights-spec-index">07</span>
+              <span class="highlights-spec-label">Electrical</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -163,7 +221,8 @@
               aria-selected="false"
               data-highlight-target="utilities"
             >
-              8. Utilities &amp; Backup
+              <span class="highlights-spec-index">08</span>
+              <span class="highlights-spec-label">Utility</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -172,7 +231,8 @@
               aria-selected="false"
               data-highlight-target="amenity-specs"
             >
-              9. Amenities
+              <span class="highlights-spec-index">09</span>
+              <span class="highlights-spec-label">Amenities</span>
             </button>
             <button
               class="highlights-spec-tab"
@@ -181,269 +241,496 @@
               aria-selected="false"
               data-highlight-target="finishes"
             >
-              10. Finishes
+              <span class="highlights-spec-index">10</span>
+              <span class="highlights-spec-label">Finishes</span>
             </button>
           </div>
         </div>
       </section>
 
       <section class="section highlights-detail-section">
-        <div class="container">
+        <div class="highlights-full-width-shell">
           <div class="highlights-content">
-            <article class="highlights-block is-active" id="structure" data-highlight-panel role="tabpanel">
-              <div class="highlights-block-heading">
-                <p class="eyebrow">01</p>
-                <h2>Structure, Foundation &amp; Roof</h2>
-                <p>
-                  The structural package is planned around stable foundations, anti-termite
-                  protection, RCC performance, and a carefully layered steel-and-tile roofing
-                  system.
-                </p>
+            <article
+              class="highlights-block highlights-structure-block is-active"
+              id="structure"
+              data-highlight-panel
+              role="tabpanel"
+            >
+              <div class="structure-hero-grid">
+                <div class="structure-visual-stack">
+                  <figure class="structure-visual-frame">
+                    <img
+                      src="images/hero1.webp"
+                      alt="Luxury villa exterior representing the structural quality of Prakruthi Farm Village"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <aside class="structure-qc-card">
+                    <p class="structure-qc-label">QC checkpoint</p>
+                    <p>
+                      Every structural package undergoes cube testing, weld inspection, curing
+                      review, and alignment verification before the next layer begins.
+                    </p>
+                  </aside>
+                </div>
+
+                <div class="structure-copy-column">
+                  <p class="eyebrow">01 Structure</p>
+                  <h2>Foundation of Longevity</h2>
+                  <p class="structure-intro">
+                    The structure package is engineered around stable foundations, seismic-ready
+                    RCC framing, pre-emptive termite protection, and a carefully layered roofing
+                    system that supports long-term durability.
+                  </p>
+
+                  <ul class="structure-key-list">
+                    <li>Expansive black cotton soil removed to hard strata, followed by retaining support and controlled morrum backfilling.</li>
+                    <li>Strip footings, RCC columns, plinth beam, and grade slab sequenced for consistent load transfer and durability.</li>
+                    <li>RC framed superstructure planned in line with seismic performance standards for strength and resilience.</li>
+                    <li>Anchored steel fabrication, waterproof layering, and Monier interlocking cement roof tiles complete the roof build-up.</li>
+                  </ul>
+
+                  <div class="structure-standard-strip">
+                    Standards referenced: IS 1498, IS 1904, IS 456:2000, IS 370 Part 2, IS 6313
+                    Part 2, IS 1893 Part 1:2016, IS 13920:2016, IS 2062, IS 800:2007, IS 13827,
+                    IS 3067
+                  </div>
+                </div>
               </div>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Soil Treatment &amp; Foundation</h3>
-                  <ul>
-                    <li>Expansive black cotton soil removed up to hard strata, approximately 6 feet, for structural stability.</li>
-                    <li>Retaining wall or CRS wall provided to plinth level based on soil conditions.</li>
-                    <li>Strip footings executed on hard strata with RCC columns raised up to plinth level.</li>
-                    <li>Controlled morrum backfilling in compacted layers followed by RCC plinth beam and grade slab.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 1498, IS 1904, IS 456:2000, IS 370 Part 2</p>
+              <div class="structure-detail-grid">
+                <section class="structure-detail-card">
+                  <p class="structure-detail-index">01 Soil Treatment &amp; Foundation</p>
+                  <h3>Grounded for stability</h3>
+                  <p>
+                    Black cotton soil is removed up to hard strata, with retaining or CRS wall
+                    support up to plinth level, then compacted morrum backfilling, plinth beam,
+                    and grade slab construction.
+                  </p>
                 </section>
 
-                <section class="highlights-panel">
-                  <h3>Anti-Termite Treatment</h3>
-                  <ul>
-                    <li>Pre-construction soil treatment with approved chemicals before the grade slab stage.</li>
-                    <li>Treatment planned as per IS 6313 Part 2 for protection against subterranean termites.</li>
-                    <li>Post-construction drilling at basement junctions with chemical emulsion injection at regular intervals.</li>
-                  </ul>
+                <section class="structure-detail-card">
+                  <p class="structure-detail-index">02 Anti-Termite Protection</p>
+                  <h3>Preventive protection built in</h3>
+                  <p>
+                    Approved chemical soil treatment is applied before the grade slab stage, with
+                    post-construction drilling and emulsion injection at basement junctions for
+                    continued termite resistance.
+                  </p>
                 </section>
 
-                <section class="highlights-panel">
-                  <h3>Superstructure, Steel &amp; Roofing</h3>
-                  <ul>
-                    <li>RC framed structure designed in line with seismic compliance requirements for strength and durability.</li>
-                    <li>Anchored MS columns with J-bolts, aligned ridge members, rafters, tie beams, and purlins.</li>
-                    <li>12mm V-board sheets at ridge and tie beam joints with aluminium purlins.</li>
-                    <li>Waterproof polypropylene sheets with sealed overlaps, Monier interlocking cement roof tiles, ridge tiles, mortar capping, and waterproofing at joints.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 456:2000, IS 1893 Part 1:2016, IS 13920:2016, IS 2062, IS 800:2007, IS 13827, IS 3067</p>
-                </section>
-
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Third-party or in-house cube testing for concrete.</li>
-                    <li>Welding inspection for fabricated joints.</li>
-                    <li>Curing quality and alignment verification before finishing.</li>
-                  </ul>
+                <section class="structure-detail-card">
+                  <p class="structure-detail-index">03 Superstructure &amp; Roof</p>
+                  <h3>Engineered above the plinth</h3>
+                  <p>
+                    Seismic-compliant RCC framing is paired with anchored MS columns, aligned
+                    rafters and purlins, waterproof polypropylene sheet layering, and interlocking
+                    cement roof tiles for a premium finished envelope.
+                  </p>
                 </section>
               </div>
             </article>
 
-            <article class="highlights-block" id="walls" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">02</p>
-                <h2>Walls, Plaster &amp; Exterior Finish</h2>
-                <p>
-                  Masonry, plastering, reinforcement bands, and waterproof exterior treatments are
-                  planned to support durability, thermal comfort, and crack resistance.
-                </p>
+            <article
+              class="highlights-block highlights-walls-block"
+              id="walls"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="walls-top-grid">
+                <div class="walls-copy-stack">
+                  <p class="eyebrow">02 Walls &amp; Plaster</p>
+                  <h2>Masonry &amp; Envelope Integrity</h2>
+                  <p class="walls-intro">
+                    Masonry, plastering, reinforcement bands, and waterproof exterior treatments
+                    are composed as one complete envelope system to support durability, thermal
+                    comfort, and crack resistance.
+                  </p>
+
+                  <ul class="walls-key-list">
+                    <li>Exterior walls use red brick masonry over a concrete DPC bed for damp resistance and long-term stability.</li>
+                    <li>9-inch outer wall thickness and concrete stiffener bands are planned to improve load transfer and thermal control.</li>
+                    <li>Interior partitions receive measured plaster thickness followed by putty-ready finishing for a refined final surface.</li>
+                    <li>Boundary wall construction includes waterproof paint, expansion joints, and reinforced infill for lasting performance.</li>
+                  </ul>
+
+                  <div class="walls-standard-strip">
+                    Standards referenced: IS 1077, IS 2212, IS 2185 Part 1 &amp; 2, IS 456:2000,
+                    IS 1542
+                  </div>
+                </div>
+
+                <figure class="walls-material-frame">
+                  <img
+                    src="images/image.webp"
+                    alt="Premium villa facade highlighting exterior wall finishes and masonry character"
+                    decoding="async"
+                  />
+                </figure>
               </div>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Exterior Walls</h3>
-                  <ul>
-                    <li>Red brick masonry built over a concrete DPC bed for damp protection.</li>
-                    <li>9-inch thick external walls planned for strength and thermal insulation.</li>
-                    <li>Concrete stiffener bands at every 1.0m height for uniform load transfer and improved crack resistance.</li>
-                    <li>Double coat cement plaster at approximately 18 to 20mm total thickness.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 1077, IS 2212, IS 2185 Part 1 &amp; 2, IS 456:2000, IS 1542</p>
+              <div class="walls-lower-grid">
+                <section class="walls-feature-card">
+                  <p class="walls-feature-index">Exterior Walls</p>
+                  <h3>Protected from the outside in</h3>
+                  <p>
+                    Red brick masonry is laid over a concrete DPC bed, with 9-inch external wall
+                    thickness, concrete stiffener bands at 1.0m intervals, and double coat cement
+                    plaster at approximately 18 to 20mm total thickness.
+                  </p>
                 </section>
 
-                <section class="highlights-panel">
-                  <h3>Interior Walls</h3>
-                  <ul>
-                    <li>4-inch thick internal brick partition walls.</li>
-                    <li>Single coat cement plaster around 12 to 15mm thick.</li>
-                    <li>Final putty or skim coat preparation for primer and emulsion finish.</li>
-                  </ul>
+                <section class="walls-feature-card">
+                  <p class="walls-feature-index">Interior Walls</p>
+                  <h3>Calm surfaces within</h3>
+                  <p>
+                    Internal partition walls use 4-inch brick masonry with single coat cement
+                    plaster around 12 to 15mm, then putty or skim coat preparation for a uniform
+                    primer-and-emulsion-ready finish.
+                  </p>
                 </section>
 
-                <section class="highlights-panel">
-                  <h3>Boundary Wall</h3>
-                  <ul>
-                    <li>RCC columns with masonry infill on a concrete DPC bed.</li>
-                    <li>Concrete stiffener bands at 1.0m intervals for added stability.</li>
-                    <li>15 to 18mm cement mortar plaster on both sides with exterior waterproof paint.</li>
-                    <li>Expansion joints to absorb thermal movement and reduce surface cracking.</li>
-                  </ul>
-                </section>
+                <section class="walls-boundary-panel">
+                  <p class="walls-feature-index">Boundary Wall &amp; QC</p>
+                  <h3>Perimeter built with discipline</h3>
+                  <p>
+                    RCC columns with masonry infill, stiffener bands, cement mortar plaster on
+                    both sides, waterproof exterior paint, and expansion joints help absorb thermal
+                    movement while maintaining edge-to-edge consistency.
+                  </p>
 
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Plaster thickness measured against specification.</li>
-                    <li>Surface evenness checked during finishing.</li>
-                    <li>Paint adhesion and moisture resistance verified.</li>
-                  </ul>
+                  <div class="walls-chip-grid">
+                    <div class="walls-chip">
+                      <strong>Surface Evenness</strong>
+                      <span>Checked during finishing</span>
+                    </div>
+                    <div class="walls-chip">
+                      <strong>Paint Adhesion</strong>
+                      <span>Verified for moisture resistance</span>
+                    </div>
+                    <div class="walls-chip">
+                      <strong>Plaster Depth</strong>
+                      <span>Measured against specification</span>
+                    </div>
+                  </div>
                 </section>
               </div>
             </article>
 
-            <article class="highlights-block" id="flooring" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">03</p>
-                <h2>Flooring &amp; Tiling</h2>
-                <p>
-                  Flooring is organized by area use, balancing premium visual finish with wet-area
-                  safety, drainage, and long-term durability.
-                </p>
-              </div>
+            <article
+              class="highlights-block highlights-flooring-block"
+              id="flooring"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="flooring-showcase-grid">
+                <div class="flooring-main-column">
+                  <p class="eyebrow">03 Flooring &amp; Tiling</p>
+                  <h2>Tactile Grandeur</h2>
+                  <p class="flooring-intro">
+                    Flooring is organized by area use, balancing premium visual finish with
+                    wet-area safety, drainage, and long-term durability across both interior and
+                    exterior touchpoints.
+                  </p>
 
-              <div class="highlights-table">
-                <div class="highlights-table-row">
-                  <div><strong>Living / Dining / Lounge</strong></div>
-                  <div>Premium vitrified, large format 800×800mm or 600×600mm, polished finish aligned with project theme.</div>
+                  <figure class="flooring-main-visual">
+                    <img
+                      src="images/image.webp"
+                      alt="Premium villa arrival paving and exterior flooring finish"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <div class="flooring-card-grid">
+                    <article class="flooring-card">
+                      <h3>Living / Dining / Lounge</h3>
+                      <p>
+                        Premium vitrified flooring in large 800×800mm or 600×600mm formats with a
+                        polished finish aligned to the overall project palette.
+                      </p>
+                    </article>
+
+                    <article class="flooring-card">
+                      <h3>Bedrooms</h3>
+                      <p>
+                        Matching premium vitrified flooring with the option for tile or wood-finish
+                        skirting depending on the final interior language.
+                      </p>
+                    </article>
+
+                    <article class="flooring-card">
+                      <h3>Veranda</h3>
+                      <p>
+                        Anti-skid tiles or full-body vitrified finish with proper slope planning
+                        and drainage protection for outdoor use.
+                      </p>
+                    </article>
+                  </div>
                 </div>
-                <div class="highlights-table-row">
-                  <div><strong>Bedrooms</strong></div>
-                  <div>Matching premium vitrified flooring, with optional tile or wood-finish skirting depending on final finish.</div>
-                </div>
-                <div class="highlights-table-row">
-                  <div><strong>Kitchens &amp; Utility</strong></div>
-                  <div>Vitrified tile with anti-skid ceramic or vitrified options and dado up to 600mm above the platform.</div>
-                </div>
-                <div class="highlights-table-row">
-                  <div><strong>Bathrooms &amp; Wet Areas</strong></div>
-                  <div>Vitrified or anti-skid ceramic flooring with wall tile dado up to approximately 1.2m to 1.5m.</div>
-                </div>
-                <div class="highlights-table-row">
-                  <div><strong>Veranda</strong></div>
-                  <div>Anti-skid tiles or full-body vitrified finish with proper slope and drainage protection.</div>
-                </div>
-              </div>
 
-              <section class="highlights-panel highlights-qc-panel">
-                <h3>Quality Control</h3>
-                <ul>
-                  <li>Tile alignment and slopes checked with spirit level.</li>
-                  <li>Joint spacers used for consistency.</li>
-                  <li>Adhesive setting and curing verified before handover.</li>
-                </ul>
-                <p class="highlights-code">Standards referenced: IS 13755, IS 15622, IS 13829</p>
-              </section>
-            </article>
+                <aside class="flooring-spec-panel">
+                  <p class="flooring-spec-index">Wet-area performance</p>
+                  <h3>Precision Underfoot</h3>
 
-            <article class="highlights-block" id="openings" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">04</p>
-                <h2>Doors, Windows &amp; Glazing</h2>
-                <p>
-                  Door and window specifications focus on durability, smooth operation, premium
-                  appearance, and better light and sound performance where needed.
-                </p>
-              </div>
+                  <figure class="flooring-spec-visual">
+                    <img
+                      src="images/amenity1.webp"
+                      alt="Poolside deck and wet-area surface finish"
+                      decoding="async"
+                    />
+                  </figure>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Main Entrance &amp; Internal Doors</h3>
-                  <ul>
-                    <li>Main door with solid hardwood or engineered wood frame and veneer finish.</li>
-                    <li>Quality hardware package including locks, hinges, handles, and deadbolt.</li>
-                    <li>Internal flush doors with veneer or laminate finish.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 2202 Part 1 &amp; 2, IS 6245</p>
-                </section>
+                  <div class="flooring-spec-rows">
+                    <div class="flooring-spec-row">
+                      <span>Kitchens &amp; Utility</span>
+                      <strong>Vitrified / anti-skid with dado up to 600mm</strong>
+                    </div>
+                    <div class="flooring-spec-row">
+                      <span>Bathrooms &amp; Wet Areas</span>
+                      <strong>Anti-skid finish with tile dado up to 1.2m-1.5m</strong>
+                    </div>
+                    <div class="flooring-spec-row">
+                      <span>Quality Control</span>
+                      <strong>Level checks, joint spacers, adhesive and curing verification</strong>
+                    </div>
+                  </div>
 
-                <section class="highlights-panel">
-                  <h3>Windows &amp; Glass</h3>
-                  <ul>
-                    <li>uPVC window frames in sliding or casement configuration as per design.</li>
-                    <li>Mosquito mesh provision included.</li>
-                    <li>Tempered glass for large windows and double-glazed units for larger openings or sound insulation zones.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 2835, IS 3548</p>
-                </section>
-
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Door alignment and shutter movement checked.</li>
-                    <li>Hardware tightening verified.</li>
-                    <li>Glass inspected for cracks and sealed at edges.</li>
-                  </ul>
-                </section>
-              </div>
-            </article>
-
-            <article class="highlights-block" id="kitchen" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">05</p>
-                <h2>Kitchen &amp; Countertops</h2>
-                <p>
-                  The kitchen package is planned around durable countertops, practical utility
-                  points, and a cleaner daily-use workflow.
-                </p>
-              </div>
-
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Counter, Sink &amp; Fittings</h3>
-                  <ul>
-                    <li>Granite or quartz countertops, approximately 20 to 30mm thick, with polished edges.</li>
-                    <li>Stainless steel under-mount sink in single or double bowl options depending on layout.</li>
-                    <li>Provision for chimney or exhaust, dishwasher or washing machine, and water purifier.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 1062, IS 303, IS 1237</p>
-                </section>
-
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Counter slope checked.</li>
-                    <li>Cabinet alignment verified.</li>
-                    <li>Sink leakages tested and hardware load checked.</li>
-                  </ul>
-                </section>
+                  <p class="flooring-spec-standards">
+                    Standards referenced: IS 13755, IS 15622, IS 13829
+                  </p>
+                </aside>
               </div>
             </article>
 
-            <article class="highlights-block" id="bathrooms" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">06</p>
-                <h2>Sanitary, Plumbing &amp; Bathrooms</h2>
-                <p>
-                  Bathroom and plumbing specifications combine premium sanitary selections with
-                  concealed service routing and durable drainage systems.
-                </p>
+            <article
+              class="highlights-block highlights-openings-block"
+              id="openings"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="openings-hero-grid">
+                <div class="openings-visual-stack">
+                  <figure class="openings-main-visual">
+                    <img
+                      src="images/hero1.webp"
+                      alt="Luxury villa glazing and entrance composition"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <aside class="openings-qc-card">
+                    <p class="openings-qc-label">QC checkpoint</p>
+                    <p>
+                      Door alignment, shutter movement, hardware tightening, and glass edge
+                      sealing are reviewed before handover.
+                    </p>
+                  </aside>
+                </div>
+
+                <div class="openings-copy-column">
+                  <p class="eyebrow">04 Doors, Windows &amp; Glazing</p>
+                  <h2>Framed for Light &amp; Poise</h2>
+                  <p class="openings-intro">
+                    Door and window specifications are selected to balance smooth daily operation,
+                    refined appearance, reliable hardware, and better light, ventilation, and sound
+                    control where needed.
+                  </p>
+
+                  <ul class="openings-key-list">
+                    <li>Main entrance doors use solid hardwood or engineered wood framing with veneer finish and a complete premium hardware package.</li>
+                    <li>Internal flush doors continue the finish language with veneer or laminate skins for a consistent interior look.</li>
+                    <li>uPVC sliding or casement windows are planned with mosquito mesh provision for practical everyday comfort.</li>
+                    <li>Tempered and double-glazed units are used where larger openings or better sound insulation are required.</li>
+                  </ul>
+
+                  <div class="openings-standard-strip">
+                    Standards referenced: IS 2202 Part 1 &amp; 2, IS 6245, IS 2835, IS 3548
+                  </div>
+                </div>
               </div>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Sanitary Ware &amp; CP Fittings</h3>
-                  <ul>
-                    <li>Wall-hung, counter, or under-counter wash basins depending on location.</li>
-                    <li>Western WC with dual flush and premium brand selections such as Jaquar or CERA.</li>
-                    <li>Premium chrome-plated, brushed, or matte black mixers, showers, and taps.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 1742, IS 10144</p>
+              <div class="openings-lower-grid">
+                <section class="openings-detail-card">
+                  <p class="openings-detail-index">Main Entrance &amp; Internal Doors</p>
+                  <h3>Crafted points of arrival</h3>
+                  <p>
+                    Main doors combine hardwood or engineered wood frames, veneer finish, locks,
+                    hinges, handles, and deadbolt-ready hardware, while internal flush doors retain
+                    the same premium language through veneer or laminate finishes.
+                  </p>
                 </section>
 
-                <section class="highlights-panel">
-                  <h3>Plumbing &amp; Drainage</h3>
-                  <ul>
-                    <li>Concealed CPVC or PVC plumbing as per certified material standards.</li>
-                    <li>Sewer drainage in PVC or HDPE.</li>
-                    <li>Rainwater lines planned in line with regulatory requirements.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 4985, IS 1785</p>
+                <section class="openings-detail-card">
+                  <p class="openings-detail-index">Windows &amp; Glass</p>
+                  <h3>Openings tuned for comfort</h3>
+                  <p>
+                    uPVC frames in sliding or casement configurations, mosquito mesh provision,
+                    tempered glass for larger windows, and double-glazed units where acoustic
+                    performance is needed create a more composed living environment.
+                  </p>
                 </section>
+              </div>
+            </article>
+
+            <article
+              class="highlights-block highlights-kitchen-block"
+              id="kitchen"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="kitchen-showcase-grid">
+                <div class="kitchen-copy-column">
+                  <p class="eyebrow">05 Culinary Space</p>
+                  <h2>The Gastronomic Hub</h2>
+                  <p class="kitchen-intro">
+                    The kitchen package is planned around durable countertops, efficient utility
+                    points, and a polished everyday workflow that feels premium in use as well as
+                    in finish.
+                  </p>
+
+                  <div class="kitchen-feature-list">
+                    <article class="kitchen-feature-item">
+                      <span class="kitchen-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M7 9.5h18" />
+                          <path d="M9 13h14" />
+                          <path d="M8 22.5h16" />
+                          <path d="M11 9.5v13" />
+                          <path d="M21 9.5v13" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>Countertop</h3>
+                        <p>Granite or quartz slab, approximately 20 to 30mm thick, with polished edges.</p>
+                      </div>
+                    </article>
+
+                    <article class="kitchen-feature-item">
+                      <span class="kitchen-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M8 12h16v10H8z" />
+                          <path d="M12 12V9h8v3" />
+                          <path d="M16 15.5v3" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>Sink</h3>
+                        <p>Stainless steel under-mount sink in single or double bowl configurations depending on layout.</p>
+                      </div>
+                    </article>
+
+                    <article class="kitchen-feature-item">
+                      <span class="kitchen-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M9 8.5h14v15H9z" />
+                          <path d="M13 12.5h6" />
+                          <path d="M13 16.5h6" />
+                          <path d="M13 20.5h4" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>Utility Provision</h3>
+                        <p>Provision for chimney or exhaust, dishwasher or washing machine, and water purifier.</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="kitchen-visual-column">
+                  <figure class="kitchen-main-visual">
+                    <img
+                      src="images/reception.webp"
+                      alt="Premium interior palette representing the refined kitchen finish direction"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <div class="kitchen-qc-strip">
+                    <p class="kitchen-qc-title">Quality Control</p>
+                    <p>
+                      Counter slope checked, cabinet alignment verified, and sink leakage plus
+                      hardware load tested before handover.
+                    </p>
+                    <p class="kitchen-standards">Standards referenced: IS 1062, IS 303, IS 1237</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="highlights-block highlights-bathrooms-block"
+              id="bathrooms"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="bathrooms-showcase-grid">
+                <div class="bathrooms-copy-column">
+                  <p class="eyebrow">06 Sanitary, Plumbing &amp; Bathrooms</p>
+                  <h2>Spa-Grade Living</h2>
+                  <p class="bathrooms-intro">
+                    Bathroom and plumbing specifications combine premium sanitary selections,
+                    concealed service routing, and durable drainage systems for a cleaner, more
+                    reliable daily experience.
+                  </p>
+
+                  <div class="bathrooms-feature-list">
+                    <article class="bathrooms-feature-item">
+                      <span class="bathrooms-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M9 23h14" />
+                          <path d="M12 23v-8a4 4 0 1 1 8 0v8" />
+                          <path d="M16 8v4" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>Sanitary Ware</h3>
+                        <p>Wall-hung, counter, or under-counter wash basins with Western WC and dual-flush provisions.</p>
+                      </div>
+                    </article>
+
+                    <article class="bathrooms-feature-item">
+                      <span class="bathrooms-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M9 10h10" />
+                          <path d="M19 10c0 6-2 10-6 10" />
+                          <path d="M21 7l4 4-8 8" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>CP Fittings</h3>
+                        <p>Premium chrome-plated, brushed, or matte black mixers, showers, and taps from trusted brands.</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <div class="bathrooms-visual-column">
+                  <figure class="bathrooms-main-visual">
+                    <img
+                      src="images/guestroom.webp"
+                      alt="Premium interior mood representing the sanitary and bathroom finish language"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <div class="bathrooms-qc-strip">
+                    <p class="bathrooms-qc-title">Plumbing &amp; Drainage</p>
+                    <p>
+                      Concealed CPVC or PVC plumbing, sewer drainage in PVC or HDPE, and rainwater
+                      lines planned in line with regulatory requirements.
+                    </p>
+                    <p class="bathrooms-standards">
+                      Standards referenced: IS 1742, IS 10144, IS 4985, IS 1785
+                    </p>
+                  </div>
+                </div>
               </div>
             </article>
 

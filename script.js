@@ -35,12 +35,47 @@ if (heroSlides.length > 1) {
 
 if (highlightsHeroSlides.length > 1) {
   let activeHighlightSlide = 0;
+  let highlightTransitionLock = false;
+
+  const resetHighlightSlide = (slide, state) => {
+    slide.classList.remove("is-active", "is-entering", "is-exiting", "is-offscreen-right");
+    if (state === "active") {
+      slide.classList.add("is-active");
+      return;
+    }
+
+    slide.classList.add("is-offscreen-right");
+  };
+
+  highlightsHeroSlides.forEach((slide, index) => {
+    resetHighlightSlide(slide, index === activeHighlightSlide ? "active" : "offscreen");
+  });
 
   window.setInterval(() => {
-    highlightsHeroSlides[activeHighlightSlide].classList.remove("is-active");
-    activeHighlightSlide = (activeHighlightSlide + 1) % highlightsHeroSlides.length;
-    highlightsHeroSlides[activeHighlightSlide].classList.add("is-active");
-  }, 4200);
+    if (highlightTransitionLock) {
+      return;
+    }
+
+    highlightTransitionLock = true;
+
+    const currentSlide = highlightsHeroSlides[activeHighlightSlide];
+    const nextHighlightSlide = (activeHighlightSlide + 1) % highlightsHeroSlides.length;
+    const nextSlide = highlightsHeroSlides[nextHighlightSlide];
+
+    nextSlide.classList.remove("is-active", "is-exiting", "is-entering", "is-offscreen-right");
+    nextSlide.getBoundingClientRect();
+
+    currentSlide.classList.remove("is-entering");
+    currentSlide.classList.add("is-exiting");
+    nextSlide.classList.add("is-entering");
+
+    window.setTimeout(() => {
+      resetHighlightSlide(currentSlide, "offscreen");
+      resetHighlightSlide(nextSlide, "active");
+      activeHighlightSlide = nextHighlightSlide;
+      highlightTransitionLock = false;
+    }, 1120);
+  }, 4800);
 }
 
 if (carousels.length) {
