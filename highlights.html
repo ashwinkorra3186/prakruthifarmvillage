@@ -14,15 +14,15 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="preload" as="image" href="images/logo.webp" fetchpriority="high" />
-    <link rel="preload" as="image" href="images/highlight1.png" fetchpriority="high" />
+    <link rel="preload" as="image" href="images/webp/logo.webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="images/webp/highlight1.webp" fetchpriority="high" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="inner-page highlights-page">
     <header class="site-header">
       <div class="container nav-shell">
         <a class="brand" href="index.html" aria-label="Prakruthi Farm Village home">
-          <img src="images/logo.webp" alt="Prakruthi Farm Village logo" decoding="async" />
+          <img src="images/webp/logo.webp" alt="Prakruthi Farm Village logo" decoding="async" />
         </a>
 
         <nav class="site-nav" id="site-nav">
@@ -30,7 +30,7 @@
           <a href="highlights.html">Highlights</a>
           <a href="index.html#amenities">Amenities</a>
           <a href="location.html">Location</a>
-          <a href="Prakruthi%20Farm%20Village%20brochure.pdf" target="_blank" rel="noreferrer">
+          <a href="brochure.pdf" download="Prakruthi Farm Village brochure.pdf">
             Brochure
           </a>
         </nav>
@@ -71,15 +71,15 @@
         <div class="highlights-hero-background" aria-hidden="true">
           <div
             class="highlights-hero-slide is-active"
-            style="--highlights-hero-image: url('images/highlight1.png')"
+            style="--highlights-hero-image: url('images/webp/highlight1.webp')"
           ></div>
           <div
             class="highlights-hero-slide"
-            style="--highlights-hero-image: url('images/highlight2.png')"
+            style="--highlights-hero-image: url('images/webp/highlight2.webp')"
           ></div>
           <div
             class="highlights-hero-slide"
-            style="--highlights-hero-image: url('images/highlight3.png')"
+            style="--highlights-hero-image: url('images/webp/highlight3.webp')"
           ></div>
         </div>
         <div class="container highlights-hero-shell">
@@ -261,7 +261,7 @@
                 <div class="structure-visual-stack">
                   <figure class="structure-visual-frame">
                     <img
-                      src="images/hero1.webp"
+                      src="images/webp/structure.webp"
                       alt="Luxury villa exterior representing the structural quality of Prakruthi Farm Village"
                       decoding="async"
                     />
@@ -365,7 +365,7 @@
 
                 <figure class="walls-material-frame">
                   <img
-                    src="images/image.webp"
+                    src="images/webp/walls&plaster.webp"
                     alt="Premium villa facade highlighting exterior wall finishes and masonry character"
                     decoding="async"
                   />
@@ -439,7 +439,7 @@
 
                   <figure class="flooring-main-visual">
                     <img
-                      src="images/image.webp"
+                      src="images/webp/mainflooring.webp"
                       alt="Premium villa arrival paving and exterior flooring finish"
                       decoding="async"
                     />
@@ -478,7 +478,7 @@
 
                   <figure class="flooring-spec-visual">
                     <img
-                      src="images/amenity1.webp"
+                      src="images/webp/wetarea.webp"
                       alt="Poolside deck and wet-area surface finish"
                       decoding="async"
                     />
@@ -517,7 +517,7 @@
                 <div class="openings-visual-stack">
                   <figure class="openings-main-visual">
                     <img
-                      src="images/hero1.webp"
+                      src="images/webp/doors.webp"
                       alt="Luxury villa glazing and entrance composition"
                       decoding="async"
                     />
@@ -645,7 +645,7 @@
                 <div class="kitchen-visual-column">
                   <figure class="kitchen-main-visual">
                     <img
-                      src="images/reception.webp"
+                      src="images/webp/kitchen.webp"
                       alt="Premium interior palette representing the refined kitchen finish direction"
                       decoding="async"
                     />
@@ -714,7 +714,7 @@
                 <div class="bathrooms-visual-column">
                   <figure class="bathrooms-main-visual">
                     <img
-                      src="images/guestroom.webp"
+                      src="images/webp/sanitary.webp"
                       alt="Premium interior mood representing the sanitary and bathroom finish language"
                       decoding="async"
                     />
@@ -734,174 +734,353 @@
               </div>
             </article>
 
-            <article class="highlights-block" id="electrical" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">07</p>
-                <h2>Electrical, Lighting &amp; Power</h2>
-                <p>
-                  Electrical planning focuses on concealed wiring, reliable switchgear, adequate
-                  appliance points, and LED-based lighting for everyday use.
-                </p>
+            <article
+              class="highlights-block highlights-flooring-block"
+              id="electrical"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="flooring-showcase-grid">
+                <div class="flooring-main-column">
+                  <p class="eyebrow">07 Electrical, Lighting &amp; Power</p>
+                  <h2>Invisible Intelligence</h2>
+                  <p class="flooring-intro">
+                    Electrical planning is organized around concealed wiring, premium switchgear,
+                    appliance-ready power points, and LED-based lighting that keeps everyday living
+                    efficient, safe, and quietly refined.
+                  </p>
+
+                  <figure class="flooring-main-visual">
+                    <img
+                      src="images/webp/mainelectrical.webp"
+                      alt="Luxury villa interior showing premium lighting and electrical planning"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <div class="flooring-card-grid">
+                    <article class="flooring-card">
+                      <h3>Concealed Copper Wiring</h3>
+                      <p>
+                        IS and BIS certified copper wiring is routed discreetly through the villa
+                        with load planning considered zone by zone.
+                      </p>
+                    </article>
+
+                    <article class="flooring-card">
+                      <h3>Premium Switchgear</h3>
+                      <p>
+                        Modular switches from brands such as Legrand, Schneider, or Havells are
+                        planned for reliable daily use and a more polished interface.
+                      </p>
+                    </article>
+
+                    <article class="flooring-card">
+                      <h3>Everyday Appliance Readiness</h3>
+                      <p>
+                        Dedicated power points are provided for ACs, refrigerators, microwaves,
+                        kitchen appliances, and other high-usage residential needs.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+
+                <aside class="flooring-spec-panel">
+                  <p class="flooring-spec-index">Circuit confidence</p>
+                  <h3>Lit with precision</h3>
+
+                  <figure class="flooring-spec-visual">
+                    <img
+                      src="images/webp/electrical2.webp"
+                      alt="Electrical systems concept showing concealed circuit logic and premium switchgear"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <div class="flooring-spec-rows">
+                    <div class="flooring-spec-row">
+                      <span>Lighting Strategy</span>
+                      <strong>LED fixtures across living areas, outdoors, corridors, and common zones</strong>
+                    </div>
+                    <div class="flooring-spec-row">
+                      <span>Quality Control</span>
+                      <strong>Insulation resistance tests, earthing verification, and MCB tripping checks</strong>
+                    </div>
+                    <div class="flooring-spec-row">
+                      <span>Circuit Reliability</span>
+                      <strong>Load tests performed for stable distribution and appliance-ready performance</strong>
+                    </div>
+                  </div>
+
+                  <p class="flooring-spec-standards">
+                    Standards referenced: IS 694, IS 1293, IS 513, IS 302 Part 1
+                  </p>
+                </aside>
+              </div>
+            </article>
+
+            <article
+              class="highlights-block highlights-structure-block"
+              id="utilities"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="structure-hero-grid">
+                <div class="structure-visual-stack">
+                  <figure class="structure-visual-frame">
+                    <img
+                      src="images/webp/utility.webp"
+                      alt="Luxury villa utility systems and infrastructure planning"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <aside class="structure-qc-card">
+                    <p class="structure-qc-label">QC checkpoint</p>
+                    <p>
+                      Utility systems are reviewed through generator load testing, water quality
+                      analysis, and treated-water verification before handover.
+                    </p>
+                  </aside>
+                </div>
+
+                <div class="structure-copy-column">
+                  <p class="eyebrow">08 Utility Services</p>
+                  <h2>Continuity by design</h2>
+                  <p class="structure-intro">
+                    Utility planning is organized to support long stays with dependable backup
+                    power, pressure-balanced water systems, treated supply lines, sewage reuse, and
+                    rainwater management built into the larger community network.
+                  </p>
+
+                  <ul class="structure-key-list">
+                    <li>100% DG backup is planned to maintain comfort and continuity during power interruptions.</li>
+                    <li>Overhead tanks for individual villas and underground community sumps support distributed water storage.</li>
+                    <li>Treated or filtered RO drinking water provision and hydro-pneumatic pressure systems improve daily usability.</li>
+                    <li>STP reuse and rooftop rainwater harvesting are integrated to support more sustainable water cycles.</li>
+                  </ul>
+
+                  <div class="structure-standard-strip">
+                    Standards referenced: IS 3370 Part 2, IS 10500, IS 3025, IS 4011
+                  </div>
+                </div>
               </div>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Wiring &amp; Switchgear</h3>
-                  <ul>
-                    <li>Concealed copper wiring with IS or BIS certified materials.</li>
-                    <li>Load calculations planned villa-wise.</li>
-                    <li>Modular switches from premium brands such as Legrand, Schneider, or Havells.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 694, IS 1293, IS 513</p>
+              <div class="structure-detail-grid">
+                <section class="structure-detail-card">
+                  <p class="structure-detail-index">01 Power &amp; Water Systems</p>
+                  <h3>Always-on essentials</h3>
+                  <p>
+                    DG backup, villa-level overhead tanks, underground community sumps, filtered
+                    drinking water provision, and hydro-pneumatic pressure support are planned as
+                    the core utility backbone.
+                  </p>
                 </section>
 
-                <section class="highlights-panel">
-                  <h3>Points &amp; Lighting</h3>
-                  <ul>
-                    <li>Adequate power points for ACs, refrigerators, microwaves, and kitchen appliances.</li>
-                    <li>LED fixtures planned for living areas, outdoors, corridors, and common areas.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 302 Part 1</p>
+                <section class="structure-detail-card">
+                  <p class="structure-detail-index">02 Sewage &amp; Rainwater</p>
+                  <h3>Circular water thinking</h3>
+                  <p>
+                    Sewage Treatment Plant output is reused for flushing and landscaping, while
+                    rooftop harvesting and recharge pits distribute rainwater recovery across the
+                    project.
+                  </p>
                 </section>
 
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Insulation resistance test carried out.</li>
-                    <li>Earthing verification completed.</li>
-                    <li>MCB tripping checks and circuit load tests performed.</li>
-                  </ul>
+                <section class="structure-detail-card">
+                  <p class="structure-detail-index">03 Quality Control</p>
+                  <h3>Utility performance verified</h3>
+                  <p>
+                    Generator load checks, water quality analysis, and STP treated-water
+                    verification help confirm that the utility systems perform consistently before
+                    occupancy.
+                  </p>
                 </section>
               </div>
             </article>
 
-            <article class="highlights-block" id="utilities" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">08</p>
-                <h2>Backup, Water &amp; Utility Services</h2>
-                <p>
-                  Utilities are designed to support comfortable long stays with backup power, treated
-                  water, pressure systems, sewage treatment, and rainwater management.
-                </p>
-              </div>
+            <article
+              class="highlights-block highlights-flooring-block"
+              id="amenity-specs"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="flooring-showcase-grid">
+                <div class="flooring-main-column">
+                  <p class="eyebrow">09 Amenities &amp; Common Areas</p>
+                  <h2>The Collective Equilibrium</h2>
+                  <p class="flooring-intro">
+                    Shared spaces are designed around landscaped leisure, active recreation,
+                    community use, and daily comfort, while security and pool systems work quietly
+                    in the background to support the experience.
+                  </p>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Power &amp; Water Systems</h3>
-                  <ul>
-                    <li>100% DG backup planned.</li>
-                    <li>Overhead tanks for individual villas and underground sumps for the community.</li>
-                    <li>Treated or filtered RO drinking water provision.</li>
-                    <li>Hydro-pneumatic system for more uniform water pressure.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 3370 Part 2, IS 10500, IS 3025</p>
-                </section>
+                  <figure class="flooring-main-visual">
+                    <img
+                      src="images/webp/mainamenities.webp"
+                      alt="Premium clubhouse and landscaped amenity environment at Prakruthi Farm Village"
+                      decoding="async"
+                    />
+                  </figure>
 
-                <section class="highlights-panel">
-                  <h3>Sewage &amp; Rainwater</h3>
-                  <ul>
-                    <li>Sewage Treatment Plant with treated water reused for flushing and landscaping.</li>
-                    <li>Rooftop rainwater harvesting and recharge pits distributed across the project.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 4011</p>
-                </section>
+                  <div class="flooring-card-grid">
+                    <article class="flooring-card">
+                      <h3>Landscape &amp; Gardens</h3>
+                      <p>
+                        Landscaped gardens with native species, walking paths, and seating zones
+                        create a calmer outdoor rhythm across the community.
+                      </p>
+                    </article>
 
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Generator load tests performed.</li>
-                    <li>Water quality analysis checked.</li>
-                    <li>STP treated water quality verified.</li>
-                  </ul>
-                </section>
+                    <article class="flooring-card">
+                      <h3>Clubhouse &amp; Recreation</h3>
+                      <p>
+                        A clubhouse with multipurpose hall, indoor games, badminton court, skating
+                        ring, and branded gym equipment supports active everyday use.
+                      </p>
+                    </article>
+
+                    <article class="flooring-card">
+                      <h3>Shared Comfort</h3>
+                      <p>
+                        Community spaces are planned to feel social, spacious, and usable across
+                        leisure, fitness, and family-oriented routines.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+
+                <aside class="flooring-spec-panel">
+                  <p class="flooring-spec-index">Security &amp; pool systems</p>
+                  <h3>Protected leisure</h3>
+
+                  <figure class="flooring-spec-visual">
+                    <img
+                      src="images/webp/amenities2.webp"
+                      alt="Pool and amenity systems with premium security infrastructure"
+                      decoding="async"
+                    />
+                  </figure>
+
+                  <div class="flooring-spec-rows">
+                    <div class="flooring-spec-row">
+                      <span>Pool Infrastructure</span>
+                      <strong>Main pool and kids' pool with deck, hygiene checks, and filtration support</strong>
+                    </div>
+                    <div class="flooring-spec-row">
+                      <span>Security Planning</span>
+                      <strong>Gated entrance, CCTV coverage, boom barriers, guard house, and solar fencing</strong>
+                    </div>
+                    <div class="flooring-spec-row">
+                      <span>Quality Control</span>
+                      <strong>Pool pH checks, gym safety inspections, and CCTV audits across critical areas</strong>
+                    </div>
+                  </div>
+
+                  <p class="flooring-spec-standards">
+                    Standards referenced: IS 15622, IS 13087, IS 3043
+                  </p>
+                </aside>
               </div>
             </article>
 
-            <article class="highlights-block" id="amenity-specs" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">09</p>
-                <h2>Amenities &amp; Common Areas</h2>
-                <p>
-                  Shared spaces are designed around landscaped leisure, active recreation, security,
-                  and community use, while still supporting everyday comfort.
-                </p>
-              </div>
+            <article
+              class="highlights-block highlights-kitchen-block"
+              id="finishes"
+              data-highlight-panel
+              role="tabpanel"
+              hidden
+            >
+              <div class="kitchen-showcase-grid">
+                <div class="kitchen-copy-column">
+                  <p class="eyebrow">10 Finishes, Painting &amp; Aesthetics</p>
+                  <h2>Master Strokes</h2>
+                  <p class="kitchen-intro">
+                    The finishing palette is designed for smoother surfaces, weather-ready
+                    performance, and a cleaner premium visual language across interiors, exteriors,
+                    and exposed metal elements.
+                  </p>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Landscape &amp; Clubhouse</h3>
-                  <ul>
-                    <li>Landscaped gardens with native species, walking paths, and seating areas.</li>
-                    <li>Clubhouse with multipurpose hall, indoor games, badminton court, skating ring, and gym with branded equipment.</li>
-                  </ul>
-                </section>
+                  <div class="kitchen-feature-list">
+                    <article class="kitchen-feature-item">
+                      <span class="kitchen-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M8 23.5 20.5 11" />
+                          <path d="M19 9.5 22.5 13" />
+                          <path d="M8 23.5h7" />
+                          <path d="M22.5 13l1.5-1.5" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>Interior Walls</h3>
+                        <p>
+                          Two coats of putty, one coat of interior primer, and two coats of
+                          Tractor emulsion build a smoother, leveled base with a refined finish.
+                        </p>
+                      </div>
+                    </article>
 
-                <section class="highlights-panel">
-                  <h3>Pool &amp; Security Infrastructure</h3>
-                  <ul>
-                    <li>Main swimming pool plus kids’ pool with deck, hygiene, and filtration systems.</li>
-                    <li>Gated entrance, CCTV coverage, boom barriers, guard house, and solar fencing.</li>
-                  </ul>
-                  <p class="highlights-code">Standards referenced: IS 15622, IS 13087, IS 3043</p>
-                </section>
+                    <article class="kitchen-feature-item">
+                      <span class="kitchen-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M8 22h16" />
+                          <path d="M10 22V10h12v12" />
+                          <path d="M12.5 13.5h7" />
+                          <path d="M12.5 17.5h7" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>Exterior Walls</h3>
+                        <p>
+                          Texture base coat, exterior-grade primer, and Apex Suprema or Apex
+                          Ultima finish layers help protect the facade from water and UV exposure.
+                        </p>
+                      </div>
+                    </article>
 
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Pool water pH testing and hygiene checks.</li>
-                    <li>Gym equipment safety inspection.</li>
-                    <li>CCTV coverage audit across critical areas.</li>
-                  </ul>
-                </section>
-              </div>
-            </article>
+                    <article class="kitchen-feature-item">
+                      <span class="kitchen-feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none">
+                          <path d="M10 22.5 22 10.5" />
+                          <path d="M8.5 24h4.5" />
+                          <path d="M19 8.5 23.5 13" />
+                          <path d="M21.5 6l4.5 4.5" />
+                        </svg>
+                      </span>
+                      <div>
+                        <h3>Metal Work</h3>
+                        <p>
+                          Exposed metal elements receive two coats of enamel paint to retain
+                          consistency, protection, and cleaner detailing over time.
+                        </p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
 
-            <article class="highlights-block" id="finishes" data-highlight-panel role="tabpanel" hidden>
-              <div class="highlights-block-heading">
-                <p class="eyebrow">10</p>
-                <h2>Finishes, Painting &amp; Aesthetics</h2>
-                <p>
-                  The finishing palette is planned for consistent surface quality, long-term
-                  weathering performance, and a cleaner premium appearance inside and out.
-                </p>
-              </div>
+                <div class="kitchen-visual-column">
+                  <figure class="kitchen-main-visual">
+                    <img
+                      src="images/webp/finishes.webp"
+                      alt="Premium interior finish palette showing refined paint and surface quality"
+                      decoding="async"
+                    />
+                  </figure>
 
-              <div class="highlights-subgrid">
-                <section class="highlights-panel">
-                  <h3>Interior Walls</h3>
-                  <ul>
-                    <li>Two coats of putty over plastered walls for a smooth and leveled base.</li>
-                    <li>One coat of interior wall primer.</li>
-                    <li>Two coats of tractor emulsion paint.</li>
-                    <li>Brand reference: Asian Paints Tractor Series.</li>
-                  </ul>
-                </section>
-
-                <section class="highlights-panel">
-                  <h3>Exterior Walls</h3>
-                  <ul>
-                    <li>Texture base coat for bonding and weather resistance.</li>
-                    <li>One coat of exterior-grade primer.</li>
-                    <li>Two coats of Apex Suprema or Apex Ultima for waterproof and UV-resistant performance.</li>
-                    <li>Brand reference: Asian Paints Apex Series.</li>
-                  </ul>
-                </section>
-
-                <section class="highlights-panel">
-                  <h3>Metal Work</h3>
-                  <ul>
-                    <li>Two coats of enamel paint on metal elements.</li>
-                  </ul>
-                </section>
-
-                <section class="highlights-panel highlights-qc-panel">
-                  <h3>Quality Control</h3>
-                  <ul>
-                    <li>Paint shade consistency checked.</li>
-                    <li>Adhesion tests performed.</li>
-                    <li>Weatherproof coating inspection completed.</li>
-                  </ul>
-                </section>
+                  <div class="kitchen-qc-strip">
+                    <p class="kitchen-qc-title">Quality Control</p>
+                    <p>
+                      Paint shade consistency, adhesion performance, and weatherproof coating
+                      integrity are checked before final handover.
+                    </p>
+                    <p class="kitchen-standards">
+                      Brand references: Asian Paints Tractor Series, Asian Paints Apex Series
+                    </p>
+                  </div>
+                </div>
               </div>
             </article>
           </div>
@@ -929,7 +1108,7 @@
       <div class="container footer-shell">
         <div class="footer-brand">
           <a class="footer-brand-mark" href="index.html" aria-label="Prakruthi Farm Village home">
-            <img src="images/logo.webp" alt="Prakruthi Farm Village logo" loading="lazy" decoding="async" />
+            <img src="images/webp/logo.webp" alt="Prakruthi Farm Village logo" loading="lazy" decoding="async" />
             <span>
               <strong>Prakruthi Farm Village</strong>
               <small>Farm-Villa Community</small>

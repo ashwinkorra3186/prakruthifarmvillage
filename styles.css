@@ -562,7 +562,7 @@ select {
       rgba(244, 239, 228, 0.22) 66%,
       rgba(244, 239, 228, 0) 74%
     ),
-    url("images/project.webp") right top / auto 100% no-repeat;
+    url("images/webp/project.webp") right top / auto 100% no-repeat;
 }
 
 .about-enquiry-shell::after {
@@ -635,7 +635,7 @@ select {
   overflow: hidden;
   background:
     linear-gradient(180deg, rgba(248, 242, 229, 0.28) 0%, rgba(244, 239, 228, 0.34) 100%),
-    url("images/background.webp") center center / cover fixed no-repeat;
+    url("images/webp/background.webp") center center / cover fixed no-repeat;
 }
 
 .highlights-section::before {
@@ -944,97 +944,97 @@ select {
 .amenity-card--children::before {
   background:
     linear-gradient(180deg, rgba(15, 28, 22, 0.18), rgba(12, 24, 19, 0.74)),
-    url("images/childrenplayarea.webp") center/cover no-repeat;
+    url("images/webp/childrenplayarea.webp") center/cover no-repeat;
 }
 
 .amenity-card--garden::before {
   background:
     linear-gradient(180deg, rgba(18, 31, 24, 0.16), rgba(11, 24, 16, 0.72)),
-    url("images/garden.webp") center/cover no-repeat;
+    url("images/webp/garden.webp") center/cover no-repeat;
 }
 
 .amenity-card--pool::before {
   background:
     linear-gradient(180deg, rgba(13, 31, 26, 0.18), rgba(11, 26, 21, 0.76)),
-    url("images/amenity1.webp") center/cover no-repeat;
+    url("images/webp/amenity1.webp") center/cover no-repeat;
 }
 
 .amenity-card--gym::before {
   background:
     linear-gradient(180deg, rgba(20, 26, 23, 0.18), rgba(15, 21, 18, 0.78)),
-    url("images/indoorgym.webp") center/cover no-repeat;
+    url("images/webp/indoorgym.webp") center/cover no-repeat;
 }
 
 .amenity-card--reception::before {
   background:
     linear-gradient(180deg, rgba(26, 23, 18, 0.14), rgba(18, 19, 16, 0.74)),
-    url("images/reception.webp") center/cover no-repeat;
+    url("images/webp/reception.webp") center/cover no-repeat;
 }
 
 .amenity-card--guestroom::before {
   background:
     linear-gradient(180deg, rgba(26, 22, 18, 0.16), rgba(17, 18, 16, 0.76)),
-    url("images/guestroom.webp") center/cover no-repeat;
+    url("images/webp/guestroom.webp") center/cover no-repeat;
 }
 
 .amenity-card--sitarea::before {
   background:
     linear-gradient(180deg, rgba(16, 27, 21, 0.18), rgba(12, 21, 17, 0.74)),
-    url("images/sitarea.webp") center/cover no-repeat;
+    url("images/webp/sitarea.webp") center/cover no-repeat;
 }
 
 .amenity-card--boxcricket::before {
   background:
     linear-gradient(180deg, rgba(19, 30, 21, 0.16), rgba(12, 22, 16, 0.76)),
-    url("images/boxcricket.webp") center/cover no-repeat;
+    url("images/webp/boxcricket.webp") center/cover no-repeat;
 }
 
 .amenity-card--gatedcommunity::before {
   background:
     linear-gradient(180deg, rgba(17, 28, 22, 0.16), rgba(11, 22, 18, 0.76)),
-    url("images/gatedcommunity.webp") center/cover no-repeat;
+    url("images/webp/gatedcommunity.webp") center/cover no-repeat;
 }
 
 .amenity-card--servantquarters::before {
   background:
     linear-gradient(180deg, rgba(24, 24, 20, 0.16), rgba(17, 18, 16, 0.76)),
-    url("images/serventquarters.webp") center/cover no-repeat;
+    url("images/webp/serventquarters.webp") center/cover no-repeat;
 }
 
 .amenity-card--banquethall::before {
   background:
     linear-gradient(180deg, rgba(30, 21, 18, 0.12), rgba(18, 17, 15, 0.74)),
-    url("images/banquethall.webp") center/cover no-repeat;
+    url("images/webp/banquethall.webp") center/cover no-repeat;
 }
 
 .amenity-card--associationroom::before {
   background:
     linear-gradient(180deg, rgba(26, 23, 18, 0.16), rgba(17, 18, 15, 0.76)),
-    url("images/associationroom.webp") center/cover no-repeat;
+    url("images/webp/associationroom.webp") center/cover no-repeat;
 }
 
 .amenity-card--previewtheatre::before {
   background:
     linear-gradient(180deg, rgba(18, 18, 22, 0.14), rgba(12, 12, 16, 0.82)),
-    url("images/previewtheatre.webp") center/cover no-repeat;
+    url("images/webp/previewtheatre.webp") center/cover no-repeat;
 }
 
 .amenity-card--joggingtrack::before {
   background:
     linear-gradient(180deg, rgba(14, 27, 20, 0.12), rgba(10, 21, 16, 0.74)),
-    url("images/joggingtrack.webp") center/cover no-repeat;
+    url("images/webp/joggingtrack.webp") center/cover no-repeat;
 }
 
 .amenity-card--security::before {
   background:
     linear-gradient(180deg, rgba(18, 24, 22, 0.14), rgba(10, 16, 14, 0.8)),
-    url("images/24x7security.webp") center/cover no-repeat;
+    url("images/webp/24x7security.webp") center/cover no-repeat;
 }
 
 .amenity-card--badminton::before {
   background:
     linear-gradient(180deg, rgba(17, 23, 20, 0.14), rgba(11, 16, 14, 0.78)),
-    url("images/badminton.webp") center/cover no-repeat;
+    url("images/webp/badminton.webp") center/cover no-repeat;
 }
 
 .amenity-icon {
@@ -1805,11 +1805,12 @@ select {
 }
 
 .highlights-spec-nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
   align-items: center;
-  gap: 24px;
-  overflow-x: auto;
-  padding: 18px 0 16px;
+  gap: 10px;
+  overflow: visible;
+  padding: 16px 0 14px;
   scrollbar-width: none;
 }
 
@@ -1818,10 +1819,10 @@ select {
 }
 
 .highlights-spec-tab {
-  flex: 0 0 auto;
   display: inline-flex;
   align-items: baseline;
-  gap: 8px;
+  justify-content: center;
+  gap: 6px;
   padding: 0 0 9px;
   border: 0;
   border-bottom: 2px solid transparent;
@@ -1829,11 +1830,12 @@ select {
   background: transparent;
   color: rgba(20, 41, 28, 0.72);
   font-family: "Manrope", sans-serif;
-  font-size: 0.92rem;
+  font-size: 0.74rem;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   white-space: nowrap;
+  width: 100%;
   cursor: pointer;
   transition:
     color 180ms ease,
@@ -1847,6 +1849,7 @@ select {
 
 .highlights-spec-label {
   color: inherit;
+  min-width: 0;
 }
 
 .highlights-spec-tab:hover,
@@ -1859,6 +1862,22 @@ select {
 .highlights-spec-tab.is-active {
   color: #143222;
   border-bottom-color: #173a28;
+}
+
+@media (max-width: 1100px) {
+  .highlights-spec-nav {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    padding: 16px 0 14px;
+  }
+
+  .highlights-spec-tab {
+    flex: 0 0 auto;
+    justify-content: flex-start;
+    width: auto;
+    font-size: 0.8rem;
+  }
 }
 
 @keyframes highlightsHeroSlideIn {
@@ -3300,7 +3319,7 @@ select {
     border-radius: 24px;
     background:
       linear-gradient(180deg, rgba(255, 248, 233, 0.08) 0%, rgba(17, 26, 18, 0.08) 100%),
-      url("images/project.webp") center center / cover no-repeat;
+      url("images/webp/project.webp") center center / cover no-repeat;
     box-shadow: 0 18px 34px rgba(31, 36, 29, 0.08);
   }
 
@@ -3314,11 +3333,6 @@ select {
     line-height: 1;
   }
 
-  .highlights-hero-copy h1 {
-    font-size: clamp(1.85rem, 6vw, 2.7rem);
-    line-height: 1.04;
-  }
-
   .section-copy p,
   .location-copy p,
   .location-card p,
@@ -3327,190 +3341,6 @@ select {
   .highlights-block-heading p,
   .location-map-heading p {
     line-height: 1.75;
-  }
-
-  .highlights-page-hero {
-    min-height: 64svh;
-  }
-
-  .highlights-hero-shell {
-    min-height: 64svh;
-    padding-top: 118px;
-    padding-bottom: 54px;
-  }
-
-  .highlights-hero-copy {
-    margin-left: clamp(1.25rem, 4vw, 2.5rem);
-  }
-
-  .highlights-pillars-section {
-    padding-top: 30px;
-    padding-bottom: 24px;
-  }
-
-  .highlights-full-width-shell {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .highlights-pillars {
-    grid-template-columns: 1fr;
-    padding-top: 8px;
-  }
-
-  .highlights-pillar {
-    padding: 24px 0 20px;
-  }
-
-  .highlights-pillar + .highlights-pillar {
-    border-left: 0;
-    border-top: 1px solid rgba(28, 59, 38, 0.12);
-  }
-
-  .highlights-pillar h2 {
-    max-width: 9ch;
-  }
-
-  .highlights-spec-nav-section {
-    top: 64px;
-  }
-
-  .highlights-spec-nav {
-    gap: 18px;
-    padding: 14px 0 12px;
-  }
-
-  .highlights-spec-tab {
-    gap: 6px;
-    padding-bottom: 8px;
-    font-size: 0.8rem;
-  }
-
-  .highlights-structure-block {
-    padding: 34px 28px 30px;
-  }
-
-  .structure-hero-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .structure-visual-stack {
-    padding-bottom: 0;
-  }
-
-  .structure-qc-card {
-    position: static;
-    width: 100%;
-    margin-top: 16px;
-  }
-
-  .structure-copy-column {
-    padding-top: 0;
-  }
-
-  .structure-copy-column h2 {
-    font-size: clamp(3rem, 8vw, 4.2rem);
-  }
-
-  .structure-detail-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .highlights-walls-block {
-    padding: 34px 28px 30px;
-  }
-
-  .walls-top-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .walls-copy-stack h2 {
-    font-size: clamp(2.9rem, 7.5vw, 4.1rem);
-  }
-
-  .walls-lower-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .highlights-flooring-block {
-    padding: 34px 28px 30px;
-  }
-
-  .flooring-showcase-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .flooring-main-column h2 {
-    font-size: clamp(3rem, 7.8vw, 4.2rem);
-  }
-
-  .flooring-card-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .flooring-spec-row {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-
-  .highlights-openings-block {
-    padding: 34px 28px 30px;
-  }
-
-  .openings-hero-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .openings-visual-stack {
-    padding-bottom: 0;
-  }
-
-  .openings-qc-card {
-    position: static;
-    width: 100%;
-    margin-top: 16px;
-  }
-
-  .openings-copy-column {
-    padding-top: 0;
-  }
-
-  .openings-copy-column h2 {
-    font-size: clamp(3rem, 7.8vw, 4.2rem);
-  }
-
-  .openings-lower-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .highlights-kitchen-block {
-    padding: 34px 28px 30px;
-  }
-
-  .kitchen-showcase-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .kitchen-copy-column h2 {
-    font-size: clamp(3rem, 7.8vw, 4.2rem);
-  }
-
-  .highlights-bathrooms-block {
-    padding: 34px 28px 30px;
-  }
-
-  .bathrooms-showcase-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .bathrooms-copy-column h2 {
-    font-size: clamp(3rem, 7.8vw, 4.2rem);
   }
 
   .highlights-subgrid {
@@ -3921,141 +3751,6 @@ select {
     margin-top: 20px;
   }
 
-  .highlights-detail-section {
-    padding-bottom: 60px;
-  }
-
-  .highlights-hero-copy {
-    margin-left: 0;
-  }
-
-  .highlights-block {
-    padding: 22px;
-    border-radius: 22px;
-  }
-
-  .highlights-structure-block {
-    padding: 24px 18px 22px;
-  }
-
-  .structure-copy-column h2 {
-    font-size: clamp(2.5rem, 13vw, 3.5rem);
-  }
-
-  .structure-key-list li {
-    padding-left: 42px;
-    font-size: 0.96rem;
-  }
-
-  .structure-key-list li::before {
-    width: 24px;
-    height: 24px;
-  }
-
-  .structure-key-list li::after {
-    left: 9px;
-    top: 10px;
-  }
-
-  .structure-detail-card {
-    padding: 22px 18px 22px;
-  }
-
-  .highlights-walls-block {
-    padding: 24px 18px 22px;
-  }
-
-  .walls-copy-stack h2 {
-    font-size: clamp(2.4rem, 12vw, 3.3rem);
-  }
-
-  .walls-feature-card,
-  .walls-boundary-panel {
-    padding: 22px 18px 22px;
-  }
-
-  .highlights-flooring-block {
-    padding: 24px 18px 22px;
-  }
-
-  .flooring-main-column h2 {
-    font-size: clamp(2.4rem, 12vw, 3.4rem);
-  }
-
-  .flooring-card {
-    min-height: 0;
-    padding: 22px 18px 20px;
-  }
-
-  .flooring-spec-panel {
-    padding: 24px 18px 22px;
-  }
-
-  .highlights-openings-block {
-    padding: 24px 18px 22px;
-  }
-
-  .openings-copy-column h2 {
-    font-size: clamp(2.4rem, 12vw, 3.4rem);
-  }
-
-  .openings-key-list li {
-    padding-left: 42px;
-    font-size: 0.96rem;
-  }
-
-  .openings-key-list li::before {
-    width: 24px;
-    height: 24px;
-  }
-
-  .openings-key-list li::after {
-    left: 9px;
-    top: 10px;
-  }
-
-  .openings-detail-card {
-    padding: 22px 18px 22px;
-  }
-
-  .highlights-kitchen-block {
-    padding: 24px 18px 22px;
-  }
-
-  .kitchen-copy-column h2 {
-    font-size: clamp(2.4rem, 12vw, 3.4rem);
-  }
-
-  .kitchen-feature-item {
-    grid-template-columns: 56px minmax(0, 1fr);
-    gap: 14px;
-  }
-
-  .kitchen-feature-icon {
-    width: 52px;
-    height: 52px;
-    border-radius: 14px;
-  }
-
-  .highlights-bathrooms-block {
-    padding: 24px 18px 22px;
-  }
-
-  .bathrooms-copy-column h2 {
-    font-size: clamp(2.4rem, 12vw, 3.4rem);
-  }
-
-  .bathrooms-feature-item {
-    grid-template-columns: 56px minmax(0, 1fr);
-    gap: 14px;
-  }
-
-  .bathrooms-feature-icon {
-    width: 52px;
-    height: 52px;
-    border-radius: 14px;
-  }
-
   .highlights-panel {
     padding: 18px;
     border-radius: 18px;
@@ -4067,21 +3762,6 @@ select {
 
   .highlights-table-row {
     padding: 16px 18px;
-  }
-
-  .highlights-spec-nav {
-    gap: 16px;
-    padding: 12px 0 10px;
-  }
-
-  .highlights-pillar h2 {
-    font-size: clamp(1.95rem, 10vw, 2.8rem);
-  }
-
-  .highlights-spec-tab {
-    min-height: 40px;
-    padding: 0 14px;
-    font-size: 0.82rem;
   }
 
   .location-map-frame iframe {
